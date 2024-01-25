@@ -1,14 +1,14 @@
-// var reject = new Audio("DL6NBR8-funny-jumper.mp3");
-// var  poorLaugh = new Audio("mixkit-crowd-laugh-424.wav");
-// var  excellent = new Audio("mixkit-cartoon-positive-sound-2255.wav");
-// var  lessThanSeventy = new Audio("mixkit-trombone-disappoint-744.wav");
-// var  lessThanFifty = new Audio("mixkit-sad-game-over-trombone-471.wav");
-// var  lessThanThirty = new Audio("mixkit-cartoon-voice-laugh-343.wav");
-// var  lessThanTwenty = new Audio("mixkit-laughing-cartoon-creature-414.wav");
-// var  lessThanTen = new Audio("mixkit-crowd-laugh-424.wav");
 function Calculate() {
     var yourName = playerName.value;
     var yourLoversName = lover.value;
+    var reject = new Audio("reject.mp3")
+    var  poorLaugh = new Audio("mixkit-crowd-laugh-424.wav");
+    var  excellent = new Audio("mixkit-cartoon-positive-sound-2255.wav");
+    var  lessThanSeventy = new Audio("mixkit-trombone-disappoint-744.wav");
+    var  lessThanFifty = new Audio("mixkit-sad-game-over-trombone-471.wav");
+    var  lessThanThirty = new Audio("mixkit-cartoon-voice-laugh-343.wav");
+    var  lessThanTwenty = new Audio("mixkit-laughing-cartoon-creature-414.wav");
+    var  lessThanTen = new Audio("mixkit-crowd-laugh-424.wav");
     var randomNumber = Math.round(Math.random()*100)
     
        
