@@ -78,7 +78,7 @@ function Calculate() {
                 <br>
                     <p style="color:red;">You and ${yourLoversName} did not match at all</p> 
                     <b style="font-size:1em;">${randomNumber}%</b>
-                    <p style="color:white;"> She just dey use you she no love for at all.</p> 
+                    <p style="color:white;"> She just dey use you she no love you at all.</p> 
                 </h1>
             `
             lover.value = ""
