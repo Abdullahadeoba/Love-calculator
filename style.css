@@ -5,12 +5,18 @@
     /* outline: 1px solid gold; */
 }
 body{
-    background-image: url(./love-3061483_1280.jpg); 
-    /* background-position: center; */
-    /* background-repeat: no-repeat;  */
+    background-image: url(/background2.avif );     
+    background-position: center;
+    background-repeat: no-repeat; 
     background-size: cover; 
     background-attachment: fixed;
+    animation: animateBg 5s linear infinite;
 }
+/* @keyframes animateBg {
+    100%{
+        filter: hue-rotate(360deg);
+    }
+} */
 .pickUser {
     border-radius: 50px;
     margin-bottom: 5px;
