@@ -10,13 +10,7 @@ body{
     background-repeat: no-repeat; 
     background-size: cover; 
     background-attachment: fixed;
-    animation: animateBg 5s linear infinite;
 }
-/* @keyframes animateBg {
-    100%{
-        filter: hue-rotate(360deg);
-    }
-} */
 .pickUser {
     border-radius: 50px;
     margin-bottom: 5px;
